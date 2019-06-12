@@ -1,0 +1,2 @@
+/Users/marina/Developer/GitHub/Triangles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/marina/Developer/GitHub/Triangles/cmake-build-debug/CMakeFiles/edit_cache.dir

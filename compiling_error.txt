@@ -1,0 +1,335 @@
+/Users/marina/Developer/GitHub/Triangles/triangle.c:26:7: warning: implicit declaration of function 'swap' is invalid in C99 [-Wimplicit-function-declaration]
+      swap(*a, *c);
+      ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:37:15: error: expected ')'
+void sort(int &l1, int &l2, int &l3);
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:37:10: note: to match this '('
+void sort(int &l1, int &l2, int &l3);
+         ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:37:6: error: conflicting types for 'sort'
+void sort(int &l1, int &l2, int &l3);
+     ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:24:6: note: previous definition is here
+void sort(int *a, int *b, int *c){
+     ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:41:14: warning: incompatible pointer types returning 'char [12]' from a function with result type 'int *' [-Wincompatible-pointer-types]
+      return "Equilateral";
+             ^~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:44:16: warning: incompatible pointer types returning 'char [10]' from a function with result type 'int *' [-Wincompatible-pointer-types]
+       {return "Isosceles";}
+               ^~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:45:21: warning: incompatible pointer types returning 'char [8]' from a function with result type 'int *' [-Wincompatible-pointer-types]
+       else {return "Scalene"}
+                    ^~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:45:30: error: expected ';' after return statement
+       else {return "Scalene"}
+                             ^
+                             ;
+/Users/marina/Developer/GitHub/Triangles/triangle.c:47:15: warning: incompatible pointer types returning 'char [8]' from a function with result type 'int *' [-Wincompatible-pointer-types]
+       return "Illegal";
+              ^~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:89:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("8", "8", "8"), "Equilateral"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:90:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("1073", "1073", "1073"), "Equilateral"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:91:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("15", "15", "13"), "Isosceles"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:92:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("15", "13", "15"), "Isosceles"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:93:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("13", "15", "15"), "Isosceles"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:94:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("25", "25", "27"), "Isosceles"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:95:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("25", "27", "25"), "Isosceles"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:96:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("27", "25", "25"), "Isosceles"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:97:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("3", "4", "5"), "Right"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:98:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("5", "12", "13"), "Right"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:99:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("5", "13", "12"), "Right"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:100:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("12", "5", "13"), "Right"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:101:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("12", "13", "5"), "Right"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:102:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("13", "5", "12"), "Right"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:103:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("13", "12", "5"), "Right"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:104:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("12", "14", "15"), "Scalene"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:105:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("12", "15", "14"), "Scalene"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:106:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("14", "12", "15"), "Scalene"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:107:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("14", "15", "12"), "Scalene"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:108:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("15", "12", "14"), "Scalene"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:109:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("15", "14", "12"), "Scalene"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:110:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("7", "9", "16"), "Flat"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:111:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("7", "16", "9"), "Flat"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:112:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("9", "16", "7"), "Flat"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:113:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("16", "7", "9"), "Flat"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:114:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("16", "9", "7"), "Flat"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:115:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("2", "3", "13"), "Impossible"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:116:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("2", "13", "3"), "Impossible"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:117:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("13", "2", "3"), "Impossible"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:118:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("0", "0", "0"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:119:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("0", "10", "12"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:120:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("10", "0", "12"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:121:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("10", "12", "0"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:122:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("-1", "-1", "-1"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:123:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("-1", "10", "12"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:124:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("10", "-1", "12"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:125:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("10", "12", "-1"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:126:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("x", "y", "z"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:127:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("10", "12", "13.4"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:128:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("03", "4", "5"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:129:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("3", "04", "5"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:130:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("3", "4", "05"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:131:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("3x", "4y", "5z"), "Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:132:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("2147483648","2147483647","2147483647"),"Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:133:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("2147483647","2147483648","2147483647"),"Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:134:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("2147483647","2147483647","2147483648"),"Illegal"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:135:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("2147483647","2147483647","2147483647"),"Equilateral"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:136:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("1100000000","1705032704","1805032704"),"Scalene"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:137:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("2000000001","2000000002","2000000003"),"Scalene"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:138:8: warning: incompatible pointer types passing 'int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    eq(triangle("150000002","666666671","683333338"),"Scalene"); final_mark++;
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/marina/Developer/GitHub/Triangles/triangle.c:72:15: note: passing argument to parameter 'actual' here
+void eq(char *actual, char *expected) {
+              ^
+/Users/marina/Developer/GitHub/Triangles/triangle.c:154:15: warning: incompatible pointer types initializing 'char *' with an expression of type 'int *' [-Wincompatible-pointer-types]
+        char *result = triangle(argv[1], argv[2], argv[3]);
+              ^        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+56 warnings and 3 errors generated.
